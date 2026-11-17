@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../domain/book.dart';
 import '../viewmodels/reading_state.dart';
 import '../viewmodels/reading_view_model.dart';
-import 'book_card.dart';
+import 'widgets/book_card.dart';
 
 class ReadingTrackerScreen extends StatefulWidget {
   final ReadingViewModel viewModel;
